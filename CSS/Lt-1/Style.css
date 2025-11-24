@@ -1,0 +1,31 @@
+.profile-info {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: auto;
+    background-color: burlywood;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20%;
+    border: #555 solid 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    
+
+
+   
+}
+
+
+
+
+
+.profile-photo{
+     width: 300px;
+    height: 450px;
+    border-radius: 30%;
+    border: 3px solid #555;
+    margin: auto;
+    
+
+}

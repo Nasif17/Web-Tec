@@ -1,0 +1,48 @@
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 20px 0 8px;
+}
+
+.box {
+  width: 300px;        
+  height: 200px;      
+  border: 2px solid #111827;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+
+.overflow-visible {
+  overflow: visible;
+  margin-bottom: 120px;
+}
+
+
+.overflow-hidden {
+  
+  overflow: hidden;
+}
+
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+
+.overflow-auto {
+  overflow: auto;
+}

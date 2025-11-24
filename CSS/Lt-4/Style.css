@@ -1,0 +1,86 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Container to center boxes */
+.product-container {
+    text-align: center; /* centers inline-block child elements */
+
+}
+
+/* Single product box */
+.product-box {
+    display: inline-block;     /* show boxes side by side */
+    width: 340px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px;              /* space between boxes */
+    padding: 15px;             /* space inside box */
+    text-align: center;        /* center content inside the box */
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: outline 0.2s ease, outline-offset 0.2s ease;
+}
+
+#img01 img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+#img02 img {
+    width: 127px;
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.product-desc {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a7a2a;
+    margin: 8px 0;
+}
+
+.product-box a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.product-box a:hover {
+    background-color: #0056b3;
+}
+
+/* Hover outline effect on the whole box */
+.product-box:hover {
+    outline: 3px solid #ff9800;
+    outline-offset: 4px;
+}
