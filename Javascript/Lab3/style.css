@@ -1,0 +1,19 @@
+/* Light mode styles (default) */
+body.light {
+    background-color: white;
+    color: black;
+}
+
+header, footer {
+    background-color: #f0f0f0;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: #141313;
+    color: white;
+}
+
+header, footer {
+    background-color: #9f9b9b;
+}

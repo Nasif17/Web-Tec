@@ -1,0 +1,17 @@
+form {
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: 300px;
+ }
+
+ label{
+    display: block;
+    
+    margin-bottom: 10px;
+ }
+
+ button{
+    margin: 10px auto;
+ }
+

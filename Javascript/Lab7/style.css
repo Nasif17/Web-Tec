@@ -1,0 +1,24 @@
+body { 
+            font-family: Calibri, sans-serif; 
+            margin: 20px; 
+            background-color: #e9d2d2;
+        }
+        p { 
+            padding: 20px; 
+            border: 1px solid #655858; 
+            transition: all 0.3s; }
+        button { 
+           
+            margin: 5px; 
+            padding: 10px; 
+            
+            background-color: #655858;
+            
+        }
+
+        .container{
+            display:block;
+           
+            align-items: center;
+            justify-content: center;
+        }

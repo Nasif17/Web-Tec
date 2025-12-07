@@ -1,0 +1,30 @@
+body { 
+     font-family: Calibri, sans-serif; 
+    margin: 20px; 
+}
+
+table { 
+        
+    
+    width: 100%; 
+     
+     }
+
+th, td { 
+            border: 1px solid #ccc; 
+            padding: 8px; 
+            text-align: left; 
+        }
+
+
+
+        
+input {    display:block;
+            margin: 5px; 
+            padding: 8px; 
+            border-radius: 30px;
+        }
+ button { 
+            padding: 8px 16px; 
+           border-radius: 30px;
+        }

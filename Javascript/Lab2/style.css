@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* .slider-container {
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+} */
+
+#sliderImages {
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth sliding transition */
+    
+     
+}
+
+.slider-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}

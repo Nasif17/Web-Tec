@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Field Display</title>
+    <style>
+        body { 
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px; 
+            
+        }
+        label { 
+            display: block; 
+            margin-top: 10px; 
+        }
+        input { 
+            padding: 8px; 
+            width: 200px; 
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <label for="userType">User Type:</label>
+    <select id="userType">
+        <option value="">Select Type</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+    </select>
+
+    <div id="rollDiv" style="display: none;">
+        <label for="roll">Roll Number:</label>
+        <input type="text" id="roll">
+    </div>
+
+    <div id="deptDiv" style="display: none;">
+        <label for="dept">Department:</label>
+        <input type="text" id="dept">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
